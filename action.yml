@@ -1,0 +1,7 @@
+name: Identity source action
+description: Controlled repository identity lockfile test
+runs:
+  using: composite
+  steps:
+    - shell: bash
+      run: echo "GHB_IDENTITY_ORIGINAL_SAFE_20261027"
